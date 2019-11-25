@@ -1,1 +1,3 @@
 javac.*.args
+
+tomcat/logs

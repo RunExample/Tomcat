@@ -92,7 +92,7 @@ Linux系统下后台运行如下所示
 
 `tomcat/webapps/`目录下的各个文件夹可视为不同的项目
 
-每个项目中都有一个特殊的名为`WEB-INF`的文件夹，该文件夹是安全目录，`GET /project/WEB-INF/abc.txt`之类的文件将无法获取到。
+每个项目中都有一个特殊的名为`WEB-INF`(Web Info)的文件夹，该文件夹是安全目录，`GET /project/WEB-INF/abc.txt`之类的文件将无法获取到。
 
 例如 <http://localhost:8080/examples/WEB-INF/web.xml>
 
